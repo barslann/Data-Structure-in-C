@@ -63,7 +63,7 @@ int sum(struct Node *p)
 {
     // Time Complexity = O(n) and Space=O(1)
     int sum=0;
-    while(p != NULL) // while(p != 0) or while(!p)
+    while(p != NULL) // while(p != 0) or while(p)
     {
         sum += p->data;
         p=p->next;
