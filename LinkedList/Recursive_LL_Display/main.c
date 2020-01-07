@@ -1,3 +1,6 @@
+// Time Complexity : O(n)
+// Space Complexity : O(n)  -- Because recursion uses stack. There will be n+1 actication record.
+
 #include <stdio.h>
 #include <stdlib.h>
 struct Node
