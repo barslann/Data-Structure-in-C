@@ -37,7 +37,22 @@ void Display(struct Node *p)
     }
     printf("\n");
 }
+
+int Length(struct Node *p)
+{
+    int len =0;
+    while(p)
+    {
+        len++;
+        p=p->next;
+    }
+    return len ;
+}
+
 int main(int argc, const char * argv[]) {
-    
+    int A[] = {10,20,30,40,50};
+    create(A, 5);
+    printf("Length is : %d \n", Length(first));
+    Display(first);
     return 0;
 }
